@@ -18,7 +18,7 @@ class Addtasksscreen extends StatelessWidget {
           autofocus: true,
           textAlign: TextAlign.center,
         ),
-        SizedBox(height: 30,),
+        const SizedBox(height: 30,),
         TextButton(onPressed: (){}, child: const Text('Add'),
         style: TextButton.styleFrom(
           foregroundColor: Colors.white, backgroundColor: Colors.blueGrey,
