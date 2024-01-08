@@ -14,15 +14,14 @@ class Addtasksscreen extends StatelessWidget {
           fontWeight: FontWeight.bold,
           color: Color.fromARGB(255, 26, 60, 110),
         ),),
-        TextField(
+       const TextField(
           autofocus: true,
           textAlign: TextAlign.center,
         ),
         SizedBox(height: 30,),
-        TextButton(onPressed: (){}, child: Text('Add'),
+        TextButton(onPressed: (){}, child: const Text('Add'),
         style: TextButton.styleFrom(
-          backgroundColor: Colors.blueGrey,
-          primary: Colors.white,
+          foregroundColor: Colors.white, backgroundColor: Colors.blueGrey,
         ),)
       ],),
     );
